@@ -287,7 +287,7 @@ int main() {
 		//percentage calculing
 		percentage_value = (height * width * percentage) / 100; 
 
-		int random_row = 0, random_col = 0;
+		int* random_row = 0, random_col = 0;
 		for (int i = 0; i < percentage_value; i++) {
 			do {
 				int random_row = (rand() % width) + 1;
